@@ -53,7 +53,7 @@ body {
   border-radius: 12px;
 }
 
-@media (min-width: 580px) {
+@media (min-width: 360px) {
   .expense-item__description {
     flex-direction: row;
     align-items: center;
@@ -62,12 +62,12 @@ body {
   }
 
   .expense-item__description h2 {
-    font-size: 1.25rem;
+    font-size: 0.75rem;
   }
 
   .expense-item__price {
-    font-size: 1.25rem;
-    padding: 0.5rem 1.5rem;
+    font-size: 0.75rem;
+    padding: 0.75rem 0.75rem;
   }
 }
 /* ExpenseItem css */
@@ -100,6 +100,7 @@ body {
   font-size: 1.5rem;
   font-weight: bold;
 }
+
 /* ExpenseDate css */
 
 /* Expenses css */
